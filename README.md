@@ -35,7 +35,9 @@ src/main/resources/application.properties
 Y coloca tus credenciales:
 
 spring.datasource.url=jdbc:mysql://localhost:3306/springboot
+
 spring.datasource.username=tu_usuario
+
 spring.datasource.password=tu_password
 
 ▶️ Cómo Ejecutar el Proyecto
@@ -46,11 +48,13 @@ git clone https://github.com/Izayoit/api-rest.git
 
 
 Entra al proyecto:
+
 cd api-rest
 
 Ejecuta:
 
 mvn spring-boot:run
+
 o desde IntelliJ IDEA presionando ▶️.
 
 📖 Documentación de la API (Swagger)
