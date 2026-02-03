@@ -82,11 +82,11 @@ GET /api/v1/factura/{id}
 
 📁 Estructura del Proyecto
 src/main/java
- com.ejemplo.api
-      controller
-      service
-      repository
-      model
+com.ejemplo.api
+controller
+service
+repository
+model
 
 🚧 Mejoras Futuras
 
