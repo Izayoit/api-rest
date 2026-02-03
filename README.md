@@ -6,15 +6,23 @@ Incluye documentación automática con Swagger / OpenAPI para probar los endpoin
 🛠️ Tecnologías Utilizadas
 
 Java 17+
+
 Spring Boot
+
 Spring Data JPA
+
 MySQL
+
 Maven
+
 Swagger / OpenAPI (springdoc)
+
 IntelliJ IDEA
 
 📂 Base de Datos
+
 La estructura de la base de datos se encuentra en la carpeta:
+
 /sql
 
 Pasos:
@@ -62,10 +70,13 @@ o desde IntelliJ IDEA presionando ▶️.
 Una vez que la aplicación esté en ejecución, abre:
 
 👉 http://localhost:8080/swagger-ui.html
+
 o:
+
 👉 http://localhost:8080/swagger-ui/index.html
 
 🔍 Endpoints Principales
+
 📦 Productos
 
 POST /api/v1/producto
@@ -85,17 +96,19 @@ PUT /api/v1/factura
 GET /api/v1/factura/{id}
 
 📁 Estructura del Proyecto
+
 src/main/java
 
-com.ejemplo.api
+ └── com.ejemplo.api
+ 
+      ├── controller
+      
+      ├── service
+      
+      ├── repository
+      
+      ├── model
 
-controller
-
-service
-
-repository
-
-model
 
 🚧 Mejoras Futuras
 
