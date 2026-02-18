@@ -44,9 +44,9 @@ Y coloca tus credenciales:
 
 spring.datasource.url=jdbc:mysql://localhost:3306/springboot
 
-spring.datasource.username=tu_usuario
+spring.datasource.username=admin
 
-spring.datasource.password=tu_password
+spring.datasource.password=1234
 
 ▶️ Cómo Ejecutar el Proyecto
 
